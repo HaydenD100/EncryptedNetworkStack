@@ -1,0 +1,13 @@
+[Global]
+
+
+[interfaces]
+ [interfaceName]
+ Type = SerialInterface
+ Speed = 115200
+ Port = COM3
+
+ [interfaceNameEth]
+ Type = EthernetInterface
+ Port = eth0
+
