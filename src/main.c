@@ -35,5 +35,10 @@ int main(void){
         printf("    Speed: %u bps\n", ptr->speed);
         printf("-------------------------------\n");
     }
+
+    init_interfaces(&interface_handler);
+    shutdown_interfaces(&interface_handler);
+
+
     return 0;
 }

@@ -26,3 +26,4 @@ enum __attribute__((packed)) message_type_e : u8 {
 
 
 #endif
+
